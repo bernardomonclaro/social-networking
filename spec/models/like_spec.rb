@@ -19,6 +19,5 @@ RSpec.describe Like, type: :model do
     Like.find_by(post: post, user: jack).destroy
     expect(post.likes.count).to eq 1
     expect(post.likes.last.user).to eq ryan
-
   end
 end
