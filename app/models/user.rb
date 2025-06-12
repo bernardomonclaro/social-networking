@@ -6,6 +6,11 @@ class User < ApplicationRecord
 
   validates :name, :phone, :avatar, presence: true
 
+  validates :phone, format: {
+  with: /\A\(?\d{2}\)?\s?9\d{4}-?\d{4}\z/,
+  message: "inválido. Use o formato (11) 91234-5678"
+}
+
   has_one_attached :avatar
   has_many :posts
   has_many :comments

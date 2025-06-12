@@ -1212,6 +1212,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime-corejs3@npm:^7.24.4":
+  version: 7.27.6
+  resolution: "@babel/runtime-corejs3@npm:7.27.6"
+  dependencies:
+    core-js-pure: "npm:^3.30.2"
+  checksum: 10c0/0ec7725824fdc3dd1e9580c1887ea60088d1cc3ec2fcfad9ccf54909262786b70e74f4b90513718d18f062a918b45add94c4dc243186f1423ed03cacf9935863
+  languageName: node
+  linkType: hard
+
 "@babel/runtime@npm:^7.15.3, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4":
   version: 7.17.9
   resolution: "@babel/runtime@npm:7.17.9"
@@ -2932,6 +2941,13 @@ __metadata:
     browserslist: "npm:^4.19.1"
     semver: "npm:7.0.0"
   checksum: 10c0/a7671c8b83e7db88650ff6d8ad6fe57f59b814de170f0635d2759c071c63b1585b1b24ddcc6befe99b6fe38362c513ce1753a2d8efc0b8fbcae372d146308419
+  languageName: node
+  linkType: hard
+
+"core-js-pure@npm:^3.30.2":
+  version: 3.43.0
+  resolution: "core-js-pure@npm:3.43.0"
+  checksum: 10c0/b888513800543af7aac13b8e33eb5153d5a8304f11fe0ec7a331878df830dcb428c723ebd5266ae52b047ffb4a86750b384aed24de731b23bc5ebdbcf05aeec5
   languageName: node
   linkType: hard
 
@@ -4778,6 +4794,15 @@ __metadata:
   version: 0.1.5
   resolution: "iferr@npm:0.1.5"
   checksum: 10c0/e0669b1757d0501b43a158321945d1cc1fe56f28a972df2f88a5818f05c8853c7669ba5d6cfbbf9a1a312850699de6e528626df108d559005df7e15d16ee334c
+  languageName: node
+  linkType: hard
+
+"imask@npm:^7.6.1":
+  version: 7.6.1
+  resolution: "imask@npm:7.6.1"
+  dependencies:
+    "@babel/runtime-corejs3": "npm:^7.24.4"
+  checksum: 10c0/cda75bb5036bf65b1028a39ee5fe7bb1a654838213e8f85288c5899a9e5eb84ce7d2b37ae2d9d600f553b7b0e9fd2f4ba2cbdb03a2c46cf0fa60075bc0c21f0c
   languageName: node
   linkType: hard
 
@@ -8610,6 +8635,7 @@ __metadata:
     "@rails/activestorage": "npm:^6.0.0"
     "@rails/ujs": "npm:^6.0.0"
     "@rails/webpacker": "npm:5.4.3"
+    imask: "npm:^7.6.1"
     jquery: "npm:^3.6.0"
     turbolinks: "npm:^5.2.0"
     webpack: "npm:^4.46.0"
