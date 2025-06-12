@@ -1,9 +1,9 @@
-<div style="height: 150%!important;background-image: url('<%= image_path('login_bg2.jpeg') %>'); background-size: cover">
+<div style="height: 100%!important;background-image: url('<%= image_path('login_bg3.png') %>'); background-size: cover">
   <div class="offset-4 col-4 authentication-inner py-5">
     <div class="card">
       <div class="p-4 p-sm-5">
         <div class="d-flex justify-content-center align-items-center pb-2 mb-4">
-          <%= image_tag('logo', style: 'height: 90px;') %>
+          <%= image_tag("logo.png", style: "height: 200px; object-fit: contain; margin-top: -10px; margin-bottom: -10px;") %>
         </div>
         <% if alert %>
           <div class="d-flex justify-content-center">
@@ -23,7 +23,7 @@
           </div>
            <div class="form-group">
             <%= f.label :phone, class: 'form-label' %>
-            <%= f.text_field :phone, autofocus: true, autocomplete: "phone", class:" form-control" %>
+            <%= f.text_field :phone, id: "phone", placeholder: "(11) 91234-5678", autofocus: true, autocomplete: "phone", class:" form-control" %>
           </div>
           <div class="form-group">
             <%= f.label :email, class: 'form-label' %>
